@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 35%;
+    height: 100vh;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.login figure img{
+    width: 15vw;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+    position: relative;
+    top: 5%;
+    z-index: 4;
+}
+form h1{
+    font-size: 1.5vw;
+}
+form input{
+    width: 80%;
+    height: 8vh;
+    background-color: #E8E6E6;
+    border:none;
+    padding-left: 1vw;
+}
+.label-form_1{
+    position: absolute;
+    top: 31%;
+    right: 58%;
+    cursor:text;
+    color: #9C9C9C;
+    font-size: 14px;
+}
+.label-form_2{
+    position: absolute;
+    top: 67%;
+    right: 76.5%;
+    cursor:text;
+    color: #9C9C9C;
+    font-size: 14px;
+}
+input::placeholder{
+    position: relative;
+    bottom: 25%;
+    left: 2%;
+    text-transform:capitalize;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+button{
+    display: flex;
+    justify-content: center;
+    width: 4vw;
+    height: 6.5vh;
+    border-radius: 10%;
+    border: none;
+    background-color: red;
+    opacity: .3;
+    transition: ease-in-out .5s;
+}
+.botones{
+    transform: scale(120%);
+    opacity: 1;
+}
+button img{
+    width: 3vw;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row;
+    height: 20vh;
+    position: relative;
+    bottom: 8%;    
+}
+.redes-sociais img{
+    width: 1.5vw;
+}
+.facebook{
+    background-color: #2051FF;
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 5%;
+}
+.google{
+    background-color: #8A0000;
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+.apple{
+    background-color: #000000;
+    width: 5vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+.conectado{
+    display: flex;
+    position: relative;
+    bottom: 6.5%;
+    left: 10%;
+}
+.conectado label{
+    position: relative;
+    left: 1%;
+    font-weight: bold;
+}
+p{
+    position: relative;
+    top: 2%;
+    text-align: center;
+    font-style: none;
+}
+.jogo img{
+    width: 100%;
+    height: 90%;
+}
